@@ -111,32 +111,32 @@ html,body{
 }
 .destination__card img {
   border-radius: 1.5rem;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  /* box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2); */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   width: 100%;
   height: auto;
 }  
-.destination__card{
-    margin: auto;
-}
 
 .destination__card__details{
   padding:1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  /* display: flex; */
   gap: 1rem;
-
+  font-size: 14px;
+  /* align-items: center; */
+  text-align: center;
 
 }
-.destination__card__details h4{
+/* .destination__card__details h4{
 margin-bottom: 5px;
 font-size: 1.2rem;
 font-weight: 600;
+align-items: center;
 columns: var(--text-dark);
 }
 .destination__card__details p{
   columns: var(--text-light);
-}
+} */
 /* .destination__ratings{
   padding: 5px 10px;
   font-size: 0.9rem;
@@ -150,3 +150,4 @@ columns: var(--text-dark);
 .destination__card:hover .destination__ratings{
   background-color: var(--primary-color-dark);
 }
+
