@@ -1,0 +1,18 @@
+.back-btn{
+    margin: 20px;
+}
+.notes-box{
+    width: 100%;
+    border: solid;
+    border-radius: 5px;
+    height: 45px;
+
+}
+/* .container{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+} */
+.button{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin: 80px;
+}
