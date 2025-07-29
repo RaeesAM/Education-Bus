@@ -3,16 +3,36 @@
 }
 .notes-box{
     width: 100%;
-    border: solid;
+    border-style: ridge;
     border-radius: 5px;
-    height: 45px;
-
+    height: 60px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 /* .container{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 } */
 .button{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 3%;
+}
+.button:hover{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    margin: 80px;
+
+    
+}
+.file-links{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px;
+}
+.pdf-icon{
+    width: 45px;
+    height: auto;
+    margin-top: 5.5px;
+
+}
+.dwnld-icon{
+    width: 50px;
+    margin-top: 8px;
 }
