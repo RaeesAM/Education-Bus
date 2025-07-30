@@ -3,10 +3,12 @@
 }
 .notes-box{
     width: 100%;
+    /* border-bottom: ridge; */
     border-style: ridge;
     border-radius: 5px;
-    height: 80px;
-    text-align: justify;
+    height: auto;
+    line-height: 15px;
+    padding-bottom: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 /* .container{
@@ -28,15 +30,17 @@
     /* margin: 30px; */
 }
 .pdf-icon{
-    width: 50px;
+    width: 40px;
     height: auto;
-    margin: auto;
-    margin-top: 13px;
+    /* margin: auto; */
+    margin-top: 10px;
 
 }
 .dwnld-icon{
-    width: 50px;
-    margin-top: 17px;
+    width: 45px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 25px;
 }
 .dwnld-icon:hover{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
