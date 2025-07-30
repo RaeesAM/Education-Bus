@@ -96,6 +96,15 @@ html,body{
 }
 
 /* ....second section style ......*/
+/* .course-name{
+  width: 90px;
+  font-size: 20px;
+} */
+.course-name{
+  text-decoration: none;
+  color: black;
+
+}
 .destination__container :is(.section__header, .section__description){
   text-align: center;
   margin-top:20px;
